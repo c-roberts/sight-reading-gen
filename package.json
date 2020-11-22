@@ -1,0 +1,9 @@
+{
+  "name": "sightreading-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/c-roberts/sight-reading-gen.git",
+  "author": "Cameron <36252679+c-roberts@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false
+}
