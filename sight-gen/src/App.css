@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+#root { height: 100%; margin: 0px; padding: 0px; }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sheet-music {
+  width: 100;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.site-content {
+  margin: auto;
+  width: 85%;
+  padding-top: 100px;
 }

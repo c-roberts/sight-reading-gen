@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import AppLayout from './components/layout';
+import SheetMusicContainer from './components/sheetmusic-container';
+
+//..\public\_tester.musicxml
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AppLayout>
+        <div><SheetMusicContainer renderID='tester'/></div>
+      </AppLayout>
+
   );
 }
 
